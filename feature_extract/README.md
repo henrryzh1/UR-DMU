@@ -23,7 +23,7 @@ We extract the features with 10-crop and continuous 16-frames(no overlap). We co
 >
 >1601 frames --> 101 clips, (1601 + 15)/16 = 101
 
-But the [GT](frame_label/gt-ucf.npy) we used drops the last frames:
+But the GT(frame_label/gt-ucf.npy) we used drops the last frames:
 >1615 frames -->  1600 frames --> 100 clips
 
 Extracted results will be saved as numpy data:
