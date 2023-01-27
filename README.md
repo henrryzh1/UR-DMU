@@ -10,7 +10,7 @@ This repo contains the Pytorch implementation of our paper:
 ## Training
 
 ### Setup
-**We use the extracted I3D features for UCF-Crime and XD-Violence dataset from following works:**
+**We use the extracted I3D features for UCF-Crime and XD-Violence datasets from the following works:**
 > [**UCF-Crime 10-crop I3D features**](https://github.com/Roc-Ng/DeepMIL)
 > 
 > [**XD-Violence 5-crop I3D features**](https://roc-ng.github.io/XD-Violence/)
@@ -27,7 +27,7 @@ The following files need to be adapted in order to run the code on your own mach
 ### Train and test the UR-DMU
 After the setup, simply run the following command: 
 
-start the visdom for visualizing the train phase
+start the visdom for visualizing the training phase
 
 ```
 python -m visdom.server -p "port"(we use 2022)
