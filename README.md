@@ -56,7 +56,7 @@ If you find this repo useful for your research, please consider citing our paper
 ```bibtex
 @article{URDMU_zh,
   title={Dual Memory Units with Uncertainty Regulation for Weakly Supervised Video Anomaly Detection},
-  author={Hang, Zhou and Junqing, Yu and Wei, Yang},
+  author={Zhou, Hang and Yu, Junqing and Yang, Wei},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2023}
 }
