@@ -84,7 +84,7 @@ class WSAD(Module):
             N_aug_var = self.encoder_var(N_aug)
             N_aug_new = self._reparameterize(N_aug_mu, N_aug_var)
             
-            anchor_nx_new = torch.gather(N_aug_new, 1, A_index.unsqueeze(2).expand([-1, -1, x.size(-1)])).mean(1).reshape(b//2,n,-1).mean(1)
+            anchor_nx_new = torch.gather(N_aug_new, 1, N_index.unsqueeze(2).expand([-1, -1, x.size(-1)])).mean(1).reshape(b//2,n,-1).mean(1)
 
             A_aug_new = self.encoder_mu(A_aug)
             negative_ax_new = torch.gather(A_aug_new, 1, A_index.unsqueeze(2).expand([-1, -1, x.size(-1)])).mean(1).reshape(b//2,n,-1).mean(1)
