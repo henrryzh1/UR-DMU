@@ -54,10 +54,13 @@ We referenced the repos below for the code.
 If you find this repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{URDMU_zh,
-  title={Dual Memory Units with Uncertainty Regulation for Weakly Supervised Video Anomaly Detection},
+@inproceedings{URDMU_zh,
+  title={Dual memory units with uncertainty regulation for weakly supervised video anomaly detection},
   author={Zhou, Hang and Yu, Junqing and Yang, Wei},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={3769--3777},
   year={2023}
 }
 ```
